@@ -1,0 +1,14 @@
+{
+  "name": "node-web-scrape",
+  "version": "0.0.1",
+  "description": "Scrape for FAQs",
+  "main": "server.js",
+  "author": "Rachel Dorn",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cheerio": "latest",
+    "express": "latest",
+    "request": "latest",
+    "request-promise": "^4.2.1"
+  }
+}
