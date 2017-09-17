@@ -2,6 +2,9 @@
   "name": "node-web-scrape",
   "version": "0.0.1",
   "description": "Scrape for FAQs",
+  "scripts": {
+    "start": "node index.js"
+  },
   "main": "server.js",
   "author": "Rachel Dorn",
   "dependencies": {
