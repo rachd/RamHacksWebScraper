@@ -7,6 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.post('/', function(req, res){
+	res.header("Access-Control-Allow-Origin", "*");
 	const url = req.body.url;
 	let questions = {};
 	let categories = [];
